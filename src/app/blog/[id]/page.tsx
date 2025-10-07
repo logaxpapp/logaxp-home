@@ -27,27 +27,27 @@ export default function Project() {
           This master class will look into the UX / UI design of the next
           award-winning website. You will know what we aimed at, how the design
           concept was created, and the difficulties we had during development.
-          The task seemed quite trivial - client's site had become outdated, so
-          agency’s main mission was to redesign it. But, not just a redesign was
-          needed here, but a complete rebranding, a new corporate identity, and
-          a fresh look at the Potion product. Potion is a simple but effective
-          sales tool for increasing conversions from cold leads and emails. As
-          for the development itself, it is based on the lightweight Bona
-          library (ex Evolve.js). We have been using an excellent and productive
-          solution from GreenSock as an animation platform for several years.
-          This library covers almost all cases with animations on our projects.
-          It allows you to easily and quickly describe any animation in the form
-          of a timeline, and use the ScrollTrigger plugin to bind it to the
-          scroll. To organise smooth scrolling in the browser window, we use the
-          SmoothScrollbar library, and a special plugin is used to connect it
-          with ScrollTrigger. When creating the cursor effect, we used our
-          previously announced Mouse Follower library. The most difficult task
-          was to make falling stickers with text in the testimonials section,
-          which should have physical properties and respond to the user's mouse
-          cursor. The 2D physics engine Matter.js was chosen to solve this
-          problem. The engine itself calculated only the physical parameters.
-          And getting the coordinates and angles of these blocks was done using
-          HTML/CSS.
+          The task seemed quite trivial - client&apos;s site had become
+          outdated, so agency’s main mission was to redesign it. But, not just a
+          redesign was needed here, but a complete rebranding, a new corporate
+          identity, and a fresh look at the Potion product. Potion is a simple
+          but effective sales tool for increasing conversions from cold leads
+          and emails. As for the development itself, it is based on the
+          lightweight Bona library (ex Evolve.js). We have been using an
+          excellent and productive solution from GreenSock as an animation
+          platform for several years. This library covers almost all cases with
+          animations on our projects. It allows you to easily and quickly
+          describe any animation in the form of a timeline, and use the
+          ScrollTrigger plugin to bind it to the scroll. To organise smooth
+          scrolling in the browser window, we use the SmoothScrollbar library,
+          and a special plugin is used to connect it with ScrollTrigger. When
+          creating the cursor effect, we used our previously announced Mouse
+          Follower library. The most difficult task was to make falling stickers
+          with text in the testimonials section, which should have physical
+          properties and respond to the user&apos;s mouse cursor. The 2D physics
+          engine Matter.js was chosen to solve this problem. The engine itself
+          calculated only the physical parameters. And getting the coordinates
+          and angles of these blocks was done using HTML/CSS.
         </p>
       </section>
     </main>
