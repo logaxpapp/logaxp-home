@@ -12,7 +12,10 @@ export default function Hero() {
   useRotateOnScroll(smileyStickerRef, heroMediaRef, "-=45deg");
 
   return (
-    <header className="px-4 md:px-12 lg:px-24 pt-24 gap-18 flex flex-col items-center">
+    <header
+      id="home"
+      className="px-4 md:px-12 lg:px-24 pt-24 gap-18 flex flex-col items-center"
+    >
       <section className="lg:max-w-4xl">
         <div className="flex md:items-center lg:px-18 flex-col gap-2">
           <h1

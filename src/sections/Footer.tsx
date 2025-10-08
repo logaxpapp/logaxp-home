@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer className="py-4 md:py-8 px-4 md:px-24 bg-[var(--background)] text-gray-500">
-      <div className="container mx-auto px-6 lg:px-8 py-12">
+      <div className="container mx-auto py-12">
         {/* Footer Content: Grid Layout */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Column 1: Brand Info */}

@@ -21,7 +21,10 @@ export default function Services() {
 
   return (
     <>
-      <section className="md:pt-48 md:items-center pb-6 pt-32 flex flex-col">
+      <section
+        id="services"
+        className="md:pt-48 md:items-center pb-6 pt-32 flex flex-col"
+      >
         <h2
           ref={containerRef}
           className="lg:px-24 md:text-center leading-normal px-4 md:max-w-5xl tracking-wide text-3xl md:text-6xl mango font-black"

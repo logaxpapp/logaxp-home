@@ -11,7 +11,7 @@ export default function Blog() {
   const nextButtonRef = useRef<HTMLButtonElement | null>(null);
   const [_, setSwiperInit] = useState(false);
   return (
-    <section className="py-4 md:py-8 px-4 md:px-24 min-h-screen">
+    <section id="blog" className="py-4 md:py-8 px-4 md:px-24 min-h-screen">
       <div className="flex gap-6 md:flex-row flex-col pb-16 md:items-center md:justify-between">
         <h2 className="mango align-baseline tracking-wide font-bold text-6xl">
           Blog

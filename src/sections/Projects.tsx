@@ -10,7 +10,7 @@ import { useState } from "react";
 export default function Projects() {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   return (
-    <section className="py-32 px-4 md:px-24 min-h-screen">
+    <section id="projects" className="py-32 px-4 md:px-24 min-h-screen">
       <div className="flex gap-6 lg:flex-row flex-col md:items-center md:justify-between">
         <h2 className="mango align-baseline tracking-wide font-bold text-6xl">
           Showcases

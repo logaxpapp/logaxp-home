@@ -1,19 +1,18 @@
 "use client";
-import Image from "next/image";
 import Link from "next/link";
 import { TextAlignJustifyIcon, XIcon } from "lucide-react";
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import { NavLink } from "../components";
 import gsap from "gsap";
 
 const links = [
   {
     name: "Home",
-    href: "",
+    href: "#home",
   },
-  { name: "Services", href: "" },
-  { name: "Projects", href: "" },
-  { name: "Blog", href: "" },
+  { name: "Services", href: "#services" },
+  { name: "Projects", href: "#projects" },
+  { name: "Blog", href: "#blogs" },
 ];
 
 export default function Navbar() {
@@ -32,6 +31,14 @@ export default function Navbar() {
       x: "100%",
     });
   };
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (!menuRef.current?.contains(event.target as Node)) hideNavbar();
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
 
   return (
     <nav className="w-full flex justify-between items-center px-8 md:px-24 py-4">

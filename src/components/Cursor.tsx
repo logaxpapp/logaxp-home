@@ -8,6 +8,7 @@ export default function Cursor() {
   useEffect(() => {
     const cursor = new MouseFollower({
       container: document.body,
+      hideTimeout: 2000,
       speed: 0.6,
     });
     cursor.setSkewing(3);
