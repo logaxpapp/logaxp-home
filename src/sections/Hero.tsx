@@ -58,11 +58,11 @@ export default function Hero() {
 
         <Image
           ref={smileyStickerRef}
-          src="/svg/4.svg"
+          src="/images/10.png"
           alt="smiley face"
-          width={70}
-          height={70}
-          className="absolute -top-[3%] -left-[2%] w-12 md:w-24 h-auto"
+          width={200}
+          height={200}
+          className="absolute md:-top-[7%] md:-left-[8%] -top-[15%] -left-[15%] w-32 md:w-42 h-auto"
         />
       </div>
     </header>
